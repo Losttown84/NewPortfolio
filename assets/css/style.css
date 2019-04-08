@@ -1,5 +1,5 @@
 .footer {
-  position: sticky;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -16,45 +16,36 @@
 .body {
   margin: 0 ;
   padding: 0 ;
-  background: url(../images/streetview.jpg);
   background-size: cover;
   background-position: center;
-  font-family: sans-serif ;  
+  font-family: sans-serif ;
+  background: url(../images/streetview.jpg);  
 }
 
 .container{
    border:1px solid;
    border-color:darkgrey;
-   color:dodgerblue;
+   color:black;
    margin-top:10px;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   background: url(../images/streetview.jpg);
 }
 .page{
    border-bottom:1px solid;
    border-color:darkgrey;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
 h4{
    color:grey;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.mail{
-   color:black;
-   width: 100px;
-   height: 100px;
-}
-
-.github{
-   color:black;
-   width:500px;
-   height:500px;
 }
 
 .row2 {
    text-align:center;
 }
 
-#submit {
+#submit_button {
    text-align: center;
+   margin-left:850px;
 }
