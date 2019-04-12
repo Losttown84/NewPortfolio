@@ -3,12 +3,10 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: lightgray;
-  color: black;
+  background-color: black;
+  color: white;
   text-align: center;
   font-size:12px;
-  border-top:10px solid;
-  border-color:dodgerblue;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   margin-top:10px;
 }
@@ -30,6 +28,14 @@
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
    background: url(../images/streetview.jpg);
 }
+
+.container2 {
+   border:1px solid;
+   border-color:darkgrey;
+   color:black;
+   margin-top:10px;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 .page{
    border-bottom:1px solid;
    border-color:darkgrey;
@@ -38,7 +44,6 @@
 
 h4{
    color:grey;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .row2 {
@@ -48,4 +53,9 @@ h4{
 #submit_button {
    text-align: center;
    margin-left:850px;
+}
+
+.nav-item{
+   font-size: 50px;
+   color:black;
 }
