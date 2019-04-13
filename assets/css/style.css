@@ -17,7 +17,7 @@
   background-size: cover;
   background-position: center;
   font-family: sans-serif ;
-  background: url(../images/streetview.jpg);  
+  background-color: darkgray;
 }
 
 .container{
@@ -26,14 +26,8 @@
    color:black;
    margin-top:10px;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
-.container2 {
-   border:1px solid;
-   border-color:darkgrey;
-   color:black;
-   margin-top:10px;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
 .page{
    border-bottom:1px solid;
    border-color:darkgrey;
@@ -41,16 +35,7 @@
 }
 
 h4{
-   color:grey;
-}
-
-.row2 {
-   text-align:center;
-}
-
-#submit_button {
-   text-align: center;
-   margin-left:850px;
+   color:whitesmoke;
 }
 
 .nav-item{
