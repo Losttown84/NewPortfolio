@@ -16,8 +16,11 @@
   padding: 0 ;
   background-size: cover;
   background-position: center;
-  font-family: sans-serif ;
+  font-family: sans-serif;
+  font-weight:700;
+  font-size: 100;
   background-color: darkgray;
+  background: url(../images/streetview.jpg);
 }
 
 .container{
@@ -38,7 +41,11 @@ h4{
    color:whitesmoke;
 }
 
-.nav-item{
+.nav-item {
    font-size: 50px;
    color:black;
+}
+
+.nav-link{
+   color:lightslategray;
 }
