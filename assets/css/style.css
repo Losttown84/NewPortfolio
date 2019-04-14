@@ -1,51 +1,83 @@
+body {
+   position: relative; 
+}
+
 .footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
-  text-align: center;
   font-size:12px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   margin-top:10px;
 }
 
-.body {
-  margin: 0 ;
-  padding: 0 ;
-  background-size: cover;
-  background-position: center;
-  font-family: sans-serif;
-  font-weight:700;
-  font-size: 100;
-  background-color: darkgray;
-  background: url(../images/streetview2.jpeg);
+.navbar-text {
+   text-align:center;
 }
 
 .container{
    border:1px solid;
    border-color:darkgrey;
    color:black;
-   margin-top:10px;
+   margin-top:30px;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.page{
-   border-bottom:1px solid;
-   border-color:darkgrey;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-h4{
-   color:whitesmoke;
-}
-
-.nav-item {
-   font-size: 50px;
+h4 {
    color:black;
 }
 
+.nav-item {
+   font-size: 30px;
+   text-align: right;
+}
+
 .nav-link{
-   color:lightslategray;
+   color:white;
+   text-align:right;
+}
+
+#me {
+   padding-top:50px;
+   height:300px;
+   color: slategray; 
+   background-color: black;
+}
+
+#projects {
+   padding-top:50px;
+   height:600px;
+   color: black; 
+   background-color: darkgray;
+}
+
+#skills {
+   padding-top:50px;
+   height:500px;
+   color: darkgray; 
+   background-color:slategray;
+}
+
+.container-fluid-1 {
+   text-align:center
+}
+
+.container-fluid-2 {
+   text-align:center;
+   margin-top:0;
+}
+
+.container-fluid-3 {
+   text-align:center;
+}
+
+.container-fluid-4 {
+   padding-top:50px;
+   height:500px;
+   color:red;
+   background:lightgoldenrodyellow;
+   text-align:center;
 }
